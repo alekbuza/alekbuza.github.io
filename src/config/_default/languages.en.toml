@@ -1,0 +1,23 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Aleksandar Buza"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+
+["params.author"]
+name = "Aleksandar Buza"
+image = "me.jpeg"
+email = "contact@aleksandarbuza.com"
+headline = "Software Engineer"
+bio = "~"
+links = [
+  { email = "mailto:contact@aleksandarbuza.com" },
+  { github = "https://github.com/alekbuza" },
+  { linkedin = "https://linkedin.com/in/aleksandarbuza" },
+]

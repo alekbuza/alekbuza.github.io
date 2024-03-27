@@ -1,0 +1,26 @@
+{
+  "hostRequirements": {
+    "cpus": 2,
+    "memory": "8gb",
+    "storage": "32gb"
+  },
+  "remoteEnv": {
+    "MISE_ENV": "dev"
+  },
+  "name": "alekbuza/alekbuza.github.io",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "github.codespaces",
+        "github.vscode-github-actions",
+        "eamodio.gitlens",
+        "vscode-icons-team.vscode-icons",
+        "tamasfe.even-better-toml",
+        "hverlin.mise-vscode",
+        "editorconfig.editorconfig"
+      ]
+    }
+  },
+  "postCreateCommand": "bash .devcontainer/post-create-command.sh"
+}

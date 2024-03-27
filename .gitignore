@@ -1,0 +1,41 @@
+# IDEs and editors
+.idea
+.project
+.classpath
+.cursor
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Temporary & local files
+.local/*
+
+# GitHub ignore files
+github_conf/
+
+# Mise
+mise.local.toml
+mise.*.local.toml
+
+# Python
+.venv/
+
+# Node
+node_modules/
+
+# Hugo
+.hugo_build.lock
+src/resources/
+
+# Public pages
+src/public/

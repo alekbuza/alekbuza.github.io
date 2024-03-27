@@ -1,0 +1,29 @@
+[[main]]
+none = "none"
+
+[[main]]
+name = "About"
+pageRef = "about"
+identifier = "7xhVWUoLcN"
+weight = 1
+
+# [[main]]
+# name = "Portfolio"
+# pageRef = "portfolio"
+# identifier = "qXnJzMWg6B"
+# weight = 2
+
+[[main]]
+name = "Projects"
+pageRef = "projects"
+identifier = "tcWWhttow0"
+weight = 3
+
+# [[main]]
+# name = "Posts"
+# pageRef = "posts"
+# identifier = "41dgwUkgsm"
+# weight = 4
+
+[[footer]]
+none = "none"

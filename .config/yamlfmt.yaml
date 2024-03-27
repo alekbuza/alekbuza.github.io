@@ -1,0 +1,8 @@
+---
+doublestar: true
+exclude:
+  - "pnpm-lock.yaml"
+formatter:
+  type: basic
+  indent: 2
+  include_document_start: true

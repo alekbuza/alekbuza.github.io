@@ -1,0 +1,53 @@
+[env]
+_.path = [
+    "{{config_root}}/bin",
+    "{{config_root}}/.venv/bin",
+    "{{config_root}}/node_modules/.bin",
+]
+
+[tasks.hygiene]
+description = "Code hygiene (pre-commit hooks)"
+run = ["pre-commit run --all-files"]
+
+[tasks.install]
+depends = ["uv:install", "pnpm:install", "pre-commit:install"]
+description = "Install dependencies"
+
+[tasks."pre-commit:install"]
+description = "Install pre-commit hooks"
+run = [
+    "pre-commit install",
+    "pre-commit install --hook-type pre-commit",
+    "pre-commit install --hook-type commit-msg",
+]
+
+[tasks."uv:install"]
+description = "Install python packages"
+run = ["uv sync"]
+
+[tasks."pnpm:install"]
+description = "Install pnpm packages"
+run = ["pnpm install"]
+
+[tasks."pre-commit:autoupdate"]
+description = "Auto update pre-commit hooks"
+run = ["pre-commit autoupdate"]
+
+[tasks."hugo:dev-server"]
+description = "Run devserver"
+run = ["cd {{config_root}}/src && hugo server"]
+
+[tasks."hugo:build"]
+description = "Build site"
+run = ["cd {{config_root}}/src && hugo --minify"]
+
+[tools]
+"python" = "3.13"
+"node" = "24.8.0"
+"ubi:koalaman/shellcheck" = "0.11.0"
+"aqua:cocogitto/cocogitto" = "6.3.0"
+"aqua:aquasecurity/trivy" = "0.65.0"
+"aqua:cli/cli" = "2.76.2"
+"aqua:astral-sh/uv" = "0.8.17"
+"aqua:pnpm/pnpm" = "10.16.1"
+"aqua:gohugoio/hugo" = "0.150.0"

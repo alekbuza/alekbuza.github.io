@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "github.codespaces",
+    "github.vscode-github-actions",
+    "eamodio.gitlens",
+    "vscode-icons-team.vscode-icons",
+    "tamasfe.even-better-toml",
+    "hverlin.mise-vscode",
+    "editorconfig.editorconfig"
+  ]
+}

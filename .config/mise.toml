@@ -1,0 +1,7 @@
+[settings]
+disable_backends = ["asdf"]
+
+[tools]
+usage = "2.2.2"
+"aqua:sigstore/cosign" = "2.5.3"
+"ubi:slsa-framework/slsa-verifier" = "2.7.1"

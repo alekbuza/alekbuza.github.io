@@ -1,0 +1,20 @@
+{
+    "editor.formatOnPaste": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "always",
+      "source.fixAll.eslint": "always"
+    },
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "search.exclude": {
+      "**/.git": true,
+      "**/.DS_Store": true,
+    },
+    "files.watcherExclude": {
+      "**/.git": true,
+      "**/.DS_Store": true,
+    },
+    "editor.insertSpaces": true,
+    "mise.configureExtensionsAutomatically": false,
+  }

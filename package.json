@@ -1,0 +1,12 @@
+{
+  "name": "alekbuza.github.io",
+  "version": "1.0.0",
+  "description": "Personal Website",
+  "keywords": [],
+  "author": "Aleksandar Buza",
+  "license": "ISC",
+  "packageManager": "pnpm@10.16.1",
+  "devDependencies": {
+    "blowfish-tools": "^1.10.0"
+  }
+}
