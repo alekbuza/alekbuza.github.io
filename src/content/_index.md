@@ -6,4 +6,4 @@ draft: false
 
 ---
 
-*"Technology trust is a good thing, but control is a better one." - Stephane Nappo*
+*"Where there is a shell - there is a way"*
